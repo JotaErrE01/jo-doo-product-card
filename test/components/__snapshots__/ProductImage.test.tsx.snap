@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Title Debe de mostrar el componente con la imagen del producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="No Img"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`Product Title Debe de mostrar el componente con la imagen personalizada 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {
+    "children": [Function],
+    "product": Object {
+      "id": "1",
+      "img": "customimg.jpg",
+      "title": "Coffee Mug - Card",
+    },
+  },
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ProductImage />,
+      "className": "productCard undefined",
+      "style": undefined,
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {},
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "No Img",
+            "className": "productImg undefined",
+            "src": "customimg.jpg",
+            "style": undefined,
+          },
+          "rendered": Array [],
+          "type": "img",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
